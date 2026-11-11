@@ -2,7 +2,6 @@ class Solution {
 public:
     int maxVowels(string s, int k) {
         int n = s.size();
-        map<char,int>freq;
         int ans = 0;
         for(int i=0;i<k;i++) {
             char ch = s[i];
